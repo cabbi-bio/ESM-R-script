@@ -1,8 +1,8 @@
 # ESM-R-script
 Script created for ESM calculations on large datasets
 
-# Supplemental Script for:
-Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. [“Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.”](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15124) Global Change Biology. DOI: 10.1111/gcb.15124.
+# Supplemental Script for
+> Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. [“Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.”](https://onlinelibrary.wiley.com/doi/abs/10.1111/gcb.15124) Global Change Biology. DOI: 10.1111/gcb.15124.
 
 # Overview
 This script is intended to provide a starting point for users to implement the equivalent soil mass
@@ -41,11 +41,20 @@ An XLSX file must be used as input for the script. See the example file Example_
 2. Change the “output_filename” variable to the desired output name for the output XLSX.
 3. Provide a minimum length (cm) of a collection of samples(e.g., cores) that will be kept in the dataset for the “min_core_length_cm” variable.
 4. The "extrapolation" variable must be set to TRUE (allow extrapolation outside the sample mass) or FALSE (do not allow extrapolation outside the sample mass).
-5. Last, the “ESM_depths_cm” vector must contain the depths (cm) in the reference samples at which the equivalent soil masses are calculated. All deptsh provided in this vector must be present in the collection reference samples.
+5. Last, the “ESM_depths_cm” vector must contain the depths (cm) in the reference samples at which the equivalent soil masses are calculated. All depth provided in this vector must be present in the collection reference samples.
 
 # Output
-The output spreadsheet has two sheets: one for fixed depth and the other for equivalent soil mass. 
+The output spreadsheet has two sheets: one for fixed depth and the other for equivalent soil mass. The Ref_ID contains blank values in the FD sheet because reference samples are ot used in FD calculations. All soil properties are given in the ESM sheet are ESM-based.
+* Soil_g_cm2: Total sample soil mass (g soil cm-2)
+* SOC_g_cm2: SOC mass within the sample (g SOC cm-2)
+* SOM_g_cm2: SOM mass within the sample (g SOM cm-2)
+* Min_Soil_g_cm2: Mineral soil mass within the sample (g mineral soil cm-2)
+* Cum_Soil_g_cm2: The cumulative soil within each group of samples (g soil cm-2)
+* Cum_SOC_g_cm2: The cumulative SOC mass within each group of samples (g SOC cm-2)
+* Cum_SOM_g_cm2: The cumulative SOM mass within each group of samples (g SOM cm-2)
+* Cum_Min_Soil_g_cm2: The cumulative mineral soil mass within each group of samples (g mineral soil cm-2)
 
-Citation: Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. “Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.” Global Change Biology. DOI: 10.1111/gcb.15124.
+#Citation 
+Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. “Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.” Global Change Biology. DOI: 10.1111/gcb.15124.
 
 
