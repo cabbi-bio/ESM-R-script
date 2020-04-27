@@ -25,7 +25,7 @@ R packages:
 * tidyr (Wickham & Henry, 2019) 
 
 # Input
-An XLSX file must be used as input for the script. See the example file Example_Input.xlsx. The format of the script is as below.
+An XLSX file must be used as input for the script. See the example file Example_datasets.xlsx. The format of the script is as below.
 
 * ID: A name to identify a unique collection of samples. For example, this might include a combination of year, treatment, plot, and station. 
 * Rep: A name that can be used if multiple collections of samples (unique instances of ID + Rep) will be compared against a single Ref_ID. If this field is not needed, it can be set to a common value (e.g., 1). 
