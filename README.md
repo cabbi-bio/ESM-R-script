@@ -54,7 +54,7 @@ The output spreadsheet has two sheets: one for fixed depth and the other for equ
 * Cum_SOM_g_cm2: The cumulative SOM mass within each group of samples (g SOM cm-2)
 * Cum_Min_Soil_g_cm2: The cumulative mineral soil mass within each group of samples (g mineral soil cm-2)
 
-#Citation 
-Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. “Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.” Global Change Biology. DOI: 10.1111/gcb.15124.
+# Citation 
+> Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. “Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.” Global Change Biology. DOI: 10.1111/gcb.15124.
 
 
