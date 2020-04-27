@@ -57,4 +57,14 @@ The output spreadsheet has two sheets: one for fixed depth and the other for equ
 # Citation 
 > Von Haden, A.C., Yang, W.H., DeLucia, E.H. April 20, 2020. “Soils’ Dirty Little Secret: Depth‐Based Comparisons can be Inadequate for Quantifying Changes in Soil Organic Carbon and Other Mineral Soil Properties.” Global Change Biology. DOI: 10.1111/gcb.15124.
 
+# References
 
+McBratney, A. B., Minasny, B. (2010). Comment on "Determining soil carbon stock changes: Simple bulk density corrections fail". Agriculture, Ecosystems & Environment, 136, 185–186. doi: 10.1016/j.agee.2009.12.010
+
+Schauberger, S., Walker, A. (2019). openxlsx: Read, write and edit XLSX files. R package version 4.1.4.
+
+Wendt, J. W., Hauser, S. (2013). An equivalent soil mass procedure for monitoring soil organic carbon in multiple soil layers. European Journal of Soil Science, 64, 58–65. doi:10.2136/sssaj2008.0063
+
+Wickham, H., François, R., Henry, L., Müller, K. (2019). dplyr: A grammar of data manipulation. R package version 0.8.3.
+
+Wickham, H., Henry, L. (2019). tidyr: Tidy Messy Data. R package version 1.0.0.
