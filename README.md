@@ -20,9 +20,9 @@ situations. The user is encouraged to modify or rewrite the script to meet their
 
 # Prerequisites
 R packages:
-openxlsx (Schauberger & Walker, 2019)
-dplyr (Wickham et al., 2019)
-tidyr (Wickham & Henry, 2019) 
+* openxlsx (Schauberger & Walker, 2019)
+* dplyr (Wickham et al., 2019)
+* tidyr (Wickham & Henry, 2019) 
 
 # Input
 An XLSX file must be used as input for the script. See the example file Example_Input.xlsx. The format of the script is as below.
