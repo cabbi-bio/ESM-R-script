@@ -1,4 +1,4 @@
-# ESM-R-script
+# Equivalent Soil Mass Calculation Software
 Script created for ESM calculations on large datasets
 
 # Supplemental Script for
